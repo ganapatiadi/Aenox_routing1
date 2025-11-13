@@ -3,7 +3,8 @@
 "sorg" :
 {
     "orgId" : 3000,      
-    "name"  : "SAP 3000 Ltd"
+    "name"  : "SAP 3000 Ltd",
+   "personres" : "Ganapati ADImulam"
 },
 "orders" :
 [
