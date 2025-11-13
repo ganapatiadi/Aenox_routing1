@@ -1,0 +1,9 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="com.vodafone.salesorderlist.controller.Orders" displayBlock="true">
+    <IllustratedMessage  title="Resource/Pattern Not Found" description="byPassed to Not Found Page"
+    ShowNavButton="true">
+ 
+
+
+    </IllustratedMessage >
+</mvc:View>

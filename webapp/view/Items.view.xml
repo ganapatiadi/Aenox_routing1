@@ -1,0 +1,6 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="com.vodafone.salesorderlist.controller.Items" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+     <Text id="idTxt1" text="Sales Order Items"></Text>
+   </Page>
+</mvc:View>

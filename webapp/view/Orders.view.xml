@@ -1,0 +1,47 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+controllerName="com.vodafone.salesorderlist.controller.Orders" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+ 
+<HBox>
+        <Input id="idSorg" description="sales Org" value="{/sorg/orgId}"/>
+        <Input id="idname" description="OrgName" value="{/sorg/name}"/>
+</HBox>
+<VBox>
+        <Input id="idPorg" description="Pur Org" value="{p>/porg/orgId}"/>
+        <Input id="idPname" description="OrgName" value="{p>/porg/pname}"/>
+</VBox>
+<Table noDataText="no Data" id="table0" headerText="list of Orders" 
+footerText="from vodafone india Ltd" alternateRowColors="true"  items="{/orders}">
+    <items>
+        <ColumnListItem type="Active" id="item0">
+      
+                <Text text="{orderId}" id="text3"/>
+                <Input value="{price}" id="text4" editable="false"/>
+                <Text text="{customer}" id="text5"/>
+
+        </ColumnListItem>
+    </items>
+    <columns>
+        <Column id="column0">
+            <header>
+                <Label text="orderId" id="label0"/>
+            </header>
+        </Column>
+        <Column id="column1">
+            <header>
+                <Label text="Price" id="label1"/>
+            </header>
+        </Column>
+        <Column id="column2">
+            <header>
+                <Label text="customer" id="label2"/>
+            </header>
+        </Column></columns></Table>
+<Button id="idBtn1" text="Goto Order items" press="onPressItems"> </Button>
+        <headerContent>
+         <Text text="Header List"></Text>
+         <Button text="Login"></Button>
+         <Button text="Register"></Button>
+        </headerContent>
+    </Page>
+</mvc:View>

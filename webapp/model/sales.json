@@ -1,0 +1,32 @@
+{
+  
+"sorg" :
+{
+    "orgId" : 3000,      
+    "name"  : "SAP 3000 Ltd"
+},
+"orders" :
+[
+{
+    "orderId" : 400000001,
+    "price"   : 4000000,
+    "customer" : 1000
+},
+{
+    "orderId" : 500000001,
+    "price"   : 5000000,
+    "customer" : 1000
+},
+{
+    "orderId" : 600000001,
+    "price"   : 6000000,
+    "customer" : 2000
+},
+{
+    "orderId" : 700000001,
+    "price"   : 7000000,
+    "customer" : 2000
+}
+],
+"price" : 112233
+}
